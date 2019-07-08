@@ -1,0 +1,77 @@
+body {
+  background-color: #FAEBD7;
+  align-items: center;
+  justfiy-content: center;
+  
+}
+
+.cass {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  text-align: center;
+  animation: cece 2s linear infinite;
+}
+
+@keyframes cece {
+  0% {
+    text-shadow: 4px 4px #0041C2;
+      opacity: 50;
+  }
+  20% {
+    text-shadow: 4px 4px #93FFE8;
+      opacity: 50;
+  }
+  40%{
+    text-shadow: 4px 4px  #7D0552;
+      opacity: 50;
+  }
+  
+  60%{
+    text-shadow: 4PX 4PX #F535AA;
+      opacity: 
+  }
+  100%{
+    text-shadow: 4PX 4PX #8D38C9;
+      opacity: 50;
+  }
+}
+.lala {
+  position: relative;
+ background: #7F5A58;
+ width: 75px;
+ height: 75px;
+ left: 900px;
+  top: 30px;
+  animation: bab 2s linear infinite;
+  
+}
+.lal {
+ position: relative;
+ background: #7F5A58;
+ width: 75px;
+ height:75px;
+ left: 430px;
+  top: -43px;
+  animation: bab 2s linear infinite;
+
+}
+
+@keyframes bab {
+  100% {transform:rotate(360deg); } 
+}
+
+
+h1 {
+  position: relative;
+  text-align: center;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 30px;
+  top: -50px;
+  left: 25px;
+}
+
+p {
+  text-align: center;
+ font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+}
